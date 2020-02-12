@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html style="background-color: black;">
+  <head>
+    <meta charset="UTF-8">
+    <title>audio visualizer</title>
+    <style>
+    .button-play {
+      height: 50px;
+      width: 100px;
+      background-color: white;
+      border-radius: 25px;
+      margin-right: 10px;
+      color: darkblue;
+    }
+    </style>
+  </head>
+  <body style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div>
+      <button class="button-play" id="audio-birds">Play Bird Song</button>
+      <button class="button-play" id="audio-asmr">Play ASMR</button>
+      <button class="button-play" id="audio-fire">Play Fire Alarm</button>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
